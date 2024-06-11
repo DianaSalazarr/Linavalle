@@ -563,3 +563,24 @@ Disciplinas
 .polo-acuatico-hero {
   background-image: url('../img/disciplinas/portada-polo-acuatico.jpg');
 }
+
+.clavados-section {
+  background-image: url('../img/disciplinas/clavados-fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0;
+}
+.clavados-hero {
+  background-image: url('../img/disciplinas/portada-clavados.jpg');
+}
+
+.clavados-section {
+  background-image: url('../img/disciplinas/clavados-fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0;
+}
+.linavallekids-hero {
+
+  background-image: url('../img/kids/kids-portada.png');
+}
