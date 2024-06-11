@@ -560,3 +560,6 @@ Disciplinas
   background-position: center;
   padding: 2rem 0;
 }
+.polo-acuatico-hero {
+  background-image: url('../img/disciplinas/portada-polo-acuatico.jpg');
+}
