@@ -578,6 +578,11 @@ Disciplinas
   background-image: url('../img/kids/portada-kids.jpg');
 }
 
+.linavallekids-section {
+  background-image: url('../img/kids/portada-kids.jpg');
+}
+
+
 .hero-header-text {
   max-width: 800px;
   margin: 0 auto;
@@ -586,28 +591,21 @@ Disciplinas
   border-radius: 10px;
 }
 
-/* Estilos para elementor-widget-container */
-.elementor-widget-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
-  background-color: rgba(255, 255, 255, 0.9);
-}
-
+/* Estilos para la alineación de las imágenes */
 .text-content {
-  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
 }
 
-.discipline, .olympic-value {
-  margin-bottom: 2rem;
+.discipline,
+.olympic-value {
+  display: flex;
+  gap: 70px;
 }
 
-.discipline img, .olympic-value img {
-  max-width: 40%;
-  height: auto;
-  display: block;
-}
-
-.linavallekids-section {
-  padding: 2rem 0;
+.discipline img,
+.olympic-value img {
+  max-width: 120px; /* Ajusta según necesites */
+  align-self: flex-end;
 }
