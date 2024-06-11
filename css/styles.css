@@ -265,7 +265,7 @@ hr {
   }
   
   .main-footer ul li i {
-    color: var(--primary-color);
+    color: var(--main-color);
   }
   
   .main-footer ul li a {
@@ -373,4 +373,190 @@ hr {
 .contact-form textarea:focus {
   outline: none;
   border-color: var(--main-color);
+}
+
+Disciplinas
+
+
+#main-nav {
+  display: flex;
+  list-style: none;
+}
+
+#main-nav li {
+  margin-right: 20px;
+}
+
+#main-nav a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.hero {
+  background-color: #f4f4f4;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.hero-title span {
+  color: #d9534f;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #666;
+}
+
+.gallery-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery-wrap .item {
+  width: 200px; /* Ajusta el ancho según sea necesario */
+  overflow: hidden;
+  border-radius: 10px;
+  transition: transform 0.3s;
+}
+
+.gallery-wrap .item img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.gallery-wrap .item:hover {
+  transform: scale(1.05);
+}
+
+.main-footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.main-footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.main-footer p {
+  margin: 0;
+}
+
+.main-footer ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+.main-footer ul li {
+  margin-right: 10px;
+}
+
+.main-footer ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-footer ul li a i {
+  font-size: 1.5rem;
+}
+
+/* Estilos para elementor-widget-container */
+.elementor-widget-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #333;
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-stacked .elementor-drop-cap {
+  background-color: #69727d;
+  color: #fff;
+}
+
+.elementor-widget-text-editor.elementor-drop-cap-view-framed .elementor-drop-cap {
+  color: #69727d;
+  border: 3px solid;
+  background-color: transparent;
+}
+
+.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap {
+  margin-top: 8px;
+}
+
+.elementor-widget-text-editor:not(.elementor-drop-cap-view-default) .elementor-drop-cap-letter {
+  width: 1em;
+  height: 1em;
+}
+
+.elementor-widget-text-editor .elementor-drop-cap {
+  float: left;
+  text-align: center;
+  line-height: 1;
+  font-size: 50px;
+}
+
+.elementor-widget-text-editor .elementor-drop-cap-letter {
+  display: inline-block;
+}
+.natacion-carreras-hero {
+  background-image: url('../img/disciplinas/portada-natacion.jpg');
+}
+/* Estilos para elementor-widget-container */
+.elementor-widget-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  display: flex;
+  gap: 2rem;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.text-content {
+  flex: 1.4;
+}
+
+.image-content {
+  flex: 0.4;
+}
+
+.image-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.natacion-carreras-section {
+  background-image: url('../img/disciplinas/natacion-carreras-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0;
+}
+
+.natacion-artistica-hero {
+  background-image: url('../img/disciplinas/portada-natacion-artistica.jpg');
+}
+
+.polo-acuatico-section {
+  background-image: url('../img/disciplinas/polo-acuatico-fondo.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 2rem 0;
 }
