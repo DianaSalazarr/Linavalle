@@ -574,13 +574,40 @@ Disciplinas
   background-image: url('../img/disciplinas/portada-clavados.jpg');
 }
 
-.clavados-section {
-  background-image: url('../img/disciplinas/clavados-fondo.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 2rem 0;
-}
 .linavallekids-hero {
+  background-image: url('../img/kids/portada-kids.jpg');
+}
 
-  background-image: url('../img/kids/kids-portada.png');
+.hero-header-text {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+/* Estilos para elementor-widget-container */
+.elementor-widget-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.text-content {
+  margin-bottom: 2rem;
+}
+
+.discipline, .olympic-value {
+  margin-bottom: 2rem;
+}
+
+.discipline img, .olympic-value img {
+  max-width: 40%;
+  height: auto;
+  display: block;
+}
+
+.linavallekids-section {
+  padding: 2rem 0;
 }
